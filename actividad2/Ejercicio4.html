@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Organizador de Eventos</title>
+    <link rel="stylesheet" href="Ejercicio4.css">
+</head>
+<body>
+    <h1>Organizador de Eventos</h1>
+    <div id="inscripcion">
+        <h2>Inscripción de Participantes</h2>
+        <form>
+            <input type="text" placeholder="Nombre del participante">
+            <button type="button" onclick="agregarParticipante()">Inscribir</button>
+        </form>
+    </div>
+    <div id="horario">
+        <h2>Horario del Evento</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Espacio</th>
+                    <th>Actividad</th>
+                </tr>
+            </thead>
+            <tbody id="horarioBody"></tbody>
+        </table>
+    </div>
+    <script src="Ejercicio4.js"></script>
+</body>
+</html>
